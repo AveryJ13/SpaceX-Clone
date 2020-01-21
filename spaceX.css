@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bannerTop{
+    background: black;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: center;
+    height: 10vh;
+    position: sticky;
+}
+
+
+
+.picLogo{
+    
+    margin-left: 60px;
+    
+}
+
+.bannerTop > .bannerWords{
+    color: white;
+    list-style: none;
+    display: flex;
+    margin-left: 15px;
+    
+}
+
+.bannerTop > .grayBannerWords{
+    color: lightgray;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 15px;
+}
+
+.words{
+    margin-left: 15px;
+    color: white;
+}
+
+.bigPic {
+    width: 100%;
+    background-image: url('https://www.nasaspaceflight.com/wp-content/uploads/2018/10/2018-10-22-13_27_15-Window.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.seeThroughBox{
+    background: black;
+    opacity: .5;
+    height: 90px;
+    
+
+}
+
+.seeThroughBox > .bigText{
+    color: white;
+    text-align: center;
+}
+
+.threePart{
+    display: flex;
+    background: rgb(92, 92, 92);
+    /* opacity: .75; */
+    height: 8vh;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.wordsOther{
+    margin-left: 15px;
+    color: white;
+    
+    border: 2px black solid;
+    padding: 5px;
+}
+
+.whiteTextBox{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    height: 30vh;
+}
+
+.bottomCardContainer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: center;
+    height: 30vh;
+    align-content: flex-end;
+    
+}
+
+.box1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    /* border: 1px black solid; */
+    height: 200 2020px;
+    width: 20%;
+    box-shadow: black;
+    margin-left: 30px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.box2{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    /* border: 2px black solid; */
+    height: 200 2020px;
+    width: 20%;
+    box-shadow: black;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.box3{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    /* border: 2px black solid; */
+    height: 170px;
+    width: 20%;
+    box-shadow: black;
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+
+.wordsBottom{
+    margin-left: 15px;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.bannerBottom{
+    display: flex;
+    background: black;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: flex-end;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.bannerWordsBottom{
+    width: 50%;
+   display: flex;
+}
+
+.button{
+    background: white;
+    float: right;
+    
+}
